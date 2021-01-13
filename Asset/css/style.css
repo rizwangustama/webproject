@@ -418,6 +418,11 @@ footer a {
         padding: 0;
     }
 
+    #banner .container {
+        margin: auto;
+    }
+
+
     #banner .container .flex1 .kanan{
         display: none;
     }
@@ -426,16 +431,24 @@ footer a {
         display: none;
     }
 
+    #banner .container .flex1 .kiri{
+        width: 100%;
+    }
+
     #banner .container .flex1 .kiri h1,
     #banner .container .flex1 .kiri p {
         text-align: center;
         color: black;
     }
+    #banner .container {
+        width: 80%;
+        margin: auto;
+    }
 
     #banner .container .flex1 .kiri a {
         display: flex;
         justify-content: center;
-       float: none;
+        float: none;
     }
 
     #pencarian .container form{
@@ -461,5 +474,38 @@ footer a {
         margin: auto;
         width: 90%;
         padding: 50px 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #pencarian .container{
+        margin: auto;
+        width: 95%;
+    }
+    #pencarian .container form{
+        margin: 0;
+        width: 100%;
+    }
+
+    #pencarian .container form input {
+        width: 70%;
+    }
+
+    footer .container1 .griding {
+        grid-template-columns: 1fr;
+    }
+
+    footer .container1{
+        margin: auto;
+        width: 90%;
+        padding: 50px 0;
+        overflow: hidden;
+    }
+
+    footer .container1 .colom1{
+        padding: 10px;
+    }
+    footer .container1 .colom2 {
+        padding: 30px;
     }
 }
