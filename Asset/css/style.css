@@ -10,6 +10,10 @@ a {
 .container {
     width: 80%;
 }
+.container2 {
+    margin: auto;
+    width: 80%;
+}
 
 a:hover {
     text-decoration: none;
@@ -79,7 +83,7 @@ ul li {
     display:none;
   }
 
-  @media screen and (max-width: 1118px) {
+  @media screen and (max-width: 1266px) {
       menu {
           height: 80px;
           position: fixed;
@@ -156,6 +160,22 @@ header nav ul {
 
 header nav ul li {
     margin: 0 20px;
+    transition: ease all 1s;
+}
+
+header nav ul li:hover {
+    border-bottom: 1px solid white;
+}
+
+header nav ul li:nth-last-child(8){
+    font-size: 20px;
+    font-weight: bold;
+    transition: none;
+    border-bottom: 1px solid transparent;
+}
+
+header nav ul li:nth-last-child(7){
+    font-weight: bold;
 }
 
 form {
@@ -238,6 +258,7 @@ form label {
     color: #01B764;
     border: 2px solid transparent;
     float: right;
+    transition: ease-out all 1s;
     
 }
 
@@ -255,16 +276,17 @@ form label {
 
 #layanan {
     background: #01B764;
+    width: 100%;
 }
 
-#layanan .container .judulbesar {
+#layanan .container2 .judulbesar {
     font-size: 36px;
     text-align: center;
     padding: 50px 0;
     color: white;
 }
 
-#layanan .container .grid{
+#layanan .container2 .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 40px;
@@ -272,15 +294,16 @@ form label {
     padding: 0 0 100px 0;
 }
 
-#layanan .container .grid .colom .card1 {
+#layanan .container2 .grid2 .colom .card1 {
     background: white;
+    height: 430px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px #077442;
     background: radial-gradient(circle at top left, #FFFFFF, #7AAA94);
 }
 
-#layanan .container .grid .colom .card1:hover {
+#layanan .container2 .grid2 .colom .card1:hover {
     
     background: white;
     padding: 30px;
@@ -289,32 +312,32 @@ form label {
     background: radial-gradient(circle at top left, #FFFFFF, #7AAA94);
 }
 
-#layanan .container .grid .colom .card1 .ikon {
+#layanan .container2 .grid2 .colom .card1 .ikon {
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-#layanan .container .grid .colom .card1 .ikon img {
+#layanan .container2 .grid2 .colom .card1 .ikon img {
     width: 231px;
 }
 
-#layanan .container .grid .colom .card1 .judul h4,
-#layanan .container .grid .colom .card1 .judul h1 {
+#layanan .container2 .grid2 .colom .card1 .judul h4,
+#layanan .container2 .grid2 .colom .card1 .judul h1 {
     text-align: center;
 }
 
-#layanan .container .grid .colom .card1 .judul h4 {
+#layanan .container2 .grid2 .colom .card1 .judul h4 {
     font-size: 20px;
     font-weight: lighter;
 }
 
-#layanan .container .grid .colom .card1 .judul h1 {
+#layanan .container2 .grid2 .colom .card1 .judul h1 {
     font-size: 24px;
     font-weight: bold;
 }
 
-#layanan .container .grid .colom .card1 .konten {
+#layanan .container2 .grid2 .colom .card1 .konten {
     text-align: center;
 }
 
@@ -382,4 +405,61 @@ footer a {
     text-align: center;
     text-align: center;
     color: rgb(179, 185, 190);
+}
+
+
+/* mobile */
+
+
+@media screen and (max-width: 710px) {
+    .container2{
+        margin: auto;
+        width: 80%;
+        padding: 0;
+    }
+
+    #banner .container .flex1 .kanan{
+        display: none;
+    }
+
+    #banner::before {
+        display: none;
+    }
+
+    #banner .container .flex1 .kiri h1,
+    #banner .container .flex1 .kiri p {
+        text-align: center;
+        color: black;
+    }
+
+    #banner .container .flex1 .kiri a {
+        display: flex;
+        justify-content: center;
+       float: none;
+    }
+
+    #pencarian .container form{
+        margin: 0;
+        width: 100%;
+    }
+
+    #pencarian .container form input {
+        width: 80%;
+    }
+
+
+
+    #layanan .container2 .grid2{
+        grid-template-columns: 1fr;
+    }
+
+    footer .container1 .griding {
+        grid-template-columns: 1fr;
+    }
+
+    footer .container1{
+        margin: auto;
+        width: 90%;
+        padding: 50px 0;
+    }
 }
