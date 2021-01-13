@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* .kotak {
+      width: 100px;
+      height: 100px;
+      background: black;
+    }
+
+    .kotak::before{
+      margin-left: 100px;
+      content: "";
+      background: chartreuse;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      
+    }
+
+    .kotak:hover::after{
+      content: "";
+      background: chartreuse;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+    }
+
+    p {
+      position: absolute;
+      color: white;
+      z-index: 2;
+    }
+
+    img {
+      background: black;
+      width: 200px;
+      height: 200px;
+    } */
+
+    .gambar {
+      background-image: url(./Asset/img/image/banner.png);
+      width: 400px;
+      height: 150px;
+      background-size: cover;
+      transition: ease all 2.1s;
+    }
+
+    .gambar:hover:after {
+      content: "";
+      background-color: black;
+      width: 600px;
+      height: 150px;
+      position: absolute;
+      opacity: 0.6;
+    }
+
+    h1 {
+      color: red;
+      position: absolute;
+      z-index: 1;
+      text-align: center;
+      margin: 0 auto;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- <div class="kotak">
+    <p>dimna</p>
+  </div>
+   -->
+
+  <div class="gambar">
+    <h1>ini adalah gamabr</h1>
+  </div>
+</body>
+</html>

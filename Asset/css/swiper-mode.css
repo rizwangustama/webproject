@@ -1,0 +1,67 @@
+    #customer-service .container1 {
+        position: relative;
+        background: #eee;
+        height: 100%;
+        width: 78%;
+        margin: auto;
+    }
+
+    #customer-service {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-container h1 {
+        text-align: center;
+        color: #01B764;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+    .swiper-slide {
+        margin: 40px auto;
+        font-size: 18px;
+        border-radius: 10px;
+        background: #01B764;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide .card1{
+        margin: 60px 30px;
+        width: 100%;
+    }
+
+    .swiper-slide .card1 img {
+        display: flex;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .swiper-slide .card1 h3 {
+        margin: 60px 0 10px 0;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+
