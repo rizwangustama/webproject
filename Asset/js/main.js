@@ -16,6 +16,11 @@ var swiper = new Swiper('.swiper-container', {
       640: {
         slidesPerView: 2,
         spaceBetween: 40
+      },
+      // when window width is >= 840px
+      840: {
+        slidesPerView: 3,
+        spaceBetween: 40
       }
     }
   });
