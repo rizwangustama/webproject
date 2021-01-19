@@ -232,6 +232,23 @@ form label {
     text-align: center;
 }
 
+#banner .container .flex1 .kiri .sosmed {
+    display: flex;
+    
+}
+
+#banner .container .flex1 .kiri .sosmed .icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#banner .container .flex1 .kiri .sosmed .icon img {
+    width: 40px;
+    margin-left: 20px;
+}
+
 #banner .container .flex1 .kiri h1{
     color: white;
     font-style: italic;
@@ -293,6 +310,7 @@ form label {
     row-gap: 40px;
     padding: 0 0 100px 0;
 }
+
 
 #layanan .container2 .grid2 .colom .card1 {
     background: white;
@@ -435,6 +453,20 @@ footer a {
         width: 100%;
     }
 
+    #banner .container .flex1 .kiri .sosmed{
+        display: flex;
+    }
+
+    #banner .container .flex1 .kiri .sosmed .icon {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #banner .container .flex1 .kiri .sosmed .icon img {
+        width: 40px;
+        margin-left: 20px;
+    }
+
     #banner .container .flex1 .kiri h1,
     #banner .container .flex1 .kiri p {
         text-align: center;
@@ -489,6 +521,20 @@ footer a {
 
     #pencarian .container form input {
         width: 70%;
+    }
+
+    #banner .container .flex1 .kiri .sosmed{
+        display: flex;
+    }
+
+    #banner .container .flex1 .kiri .sosmed .icon {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #banner .container .flex1 .kiri .sosmed .icon img {
+        width: 40px;
+        margin-left: 20px;
     }
 
     footer .container1 .griding {
