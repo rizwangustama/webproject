@@ -228,7 +228,7 @@ form label {
 } */
 
 #banner .container .flex1 .kiri {
-    padding: 130px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -239,20 +239,45 @@ form label {
 
 #banner .container .flex1 .kiri .sosmed .icon {
     display: flex;
-    justify-content: flex-end;
+    width: auto;
+    justify-content: start;
     margin-left: auto;
     margin-right: 0px;
 }
 
-#banner .container .flex1 .kiri .sosmed .icon img {
+#banner .container .flex1 .kiri .sosmed .icon a img {
     width: 40px;
     margin-left: 20px;
+}
+
+#banner .container .flex1 .kiri .sosmed .icon a{
+    text-decoration: none;
+    background: transparent;
+    text-align: right;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#banner .container .flex1 .kiri .sosmed .icon a:hover {
+    background: transparent;
+    border: none;
+}
+
+
+#banner .container .flex1 .kiri h2{
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+    text-align: right;
 }
 
 #banner .container .flex1 .kiri h1{
     color: white;
     font-style: italic;
     font-size: 55px;
+    text-align: right;
 }
 
 #banner .container .flex1 .kiri p {
@@ -475,6 +500,15 @@ footer a {
     #banner .container {
         width: 80%;
         margin: auto;
+    }
+
+    #banner .container .flex1 .kiri h2{
+        color: white;
+        font-style: italic;
+        font-size: 24px;
+        text-align: center;
+        border: 1px solid white;
+        padding: 10px 0 10px 0;
     }
 
     #banner .container .flex1 .kiri a {
