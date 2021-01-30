@@ -450,6 +450,40 @@ footer a {
     color: rgb(179, 185, 190);
 }
 
+#about {
+    padding: 100px 0;
+}
+
+
+#about h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#about .container1 {
+    width: 77%;
+    margin: auto;
+}
+
+#about .container1 .griding {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    grid-template-rows: 300px;
+    column-gap: 150px;
+}
+
+#about .container1 .griding .colom1 {
+    display: flex;
+    align-items: center;
+}
+
+#about .container1 .griding .colom2 {
+    background: url(../img/icon/Startup\ life-pana.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 /* mobile */
 
