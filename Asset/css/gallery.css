@@ -10,6 +10,9 @@
 }
 .filterDiv {
     float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #2196F3;
     color: #ffffff;
     /* width: 100px; */
@@ -45,3 +48,67 @@
     background-color: #666;
     color: white;
   }
+
+#row1 {
+    background: url(../img/galeri/Minggu5/1-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#row2 {
+    background: url(../img/galeri/Minggu5/1-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#row3 {
+    background: url(../img/galeri/Minggu5/1-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#row4 {
+    background: url(../img/galeri/Minggu5/Emas\,\ Biru\ Tua\ dan\ Krem\ Pola\ Umum\ apresiasi\ untuk\ Ayah\,\ Saudara\ Laki-laki\,\ Teman\,\ Paman\ Kiriman\ Instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#row5 {
+    background: url(../img/galeri/Minggu5/Emas\,\ Biru\ Tua\ dan\ Krem\ Pola\ Umum\ apresiasi\ untuk\ Ayah\,\ Saudara\ Laki-laki\,\ Teman\,\ Paman\ Kiriman\ Instagram\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#row6 {
+    background: url(../img/galeri/Minggu5/Emas\,\ Biru\ Tua\ dan\ Krem\ Pola\ Umum\ apresiasi\ untuk\ Ayah\,\ Saudara\ Laki-laki\,\ Teman\,\ Paman\ Kiriman\ Instagram\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#row7 {
+    background: url(../img/galeri/Minggu5/Merah\ Muda\ Segitiga\ Label\ Kecantikan\ -\ Makeup\ Kiriman\ Instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#row8 {
+    background: url(../img/galeri/Minggu5/Merah\ Muda\ Segitiga\ Label\ Kecantikan\ -\ Makeup\ Kiriman\ Instagram\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#row9 {
+    background: url(../img/galeri/Minggu5/Merah\ Muda\ Segitiga\ Label\ Kecantikan\ -\ Makeup\ Kiriman\ Instagram\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
