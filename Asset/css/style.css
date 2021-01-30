@@ -575,6 +575,46 @@ footer a {
         width: 90%;
         padding: 50px 0;
     }
+
+
+    #about {
+        padding: 100px 0;
+    }
+    
+    
+    #about h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #about p {
+        text-align: justify;
+    }
+    
+    #about .container1 {
+        width: 90%;
+        margin: auto;
+    }
+    
+    #about .container1 .griding {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px;
+        column-gap: 150px;
+    }
+    
+    #about .container1 .griding .colom1 {
+        display: flex;
+        align-items: center;
+    }
+    
+    #about .container1 .griding .colom2 {
+        background: url(../img/icon/Startup\ life-pana.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -604,6 +644,8 @@ footer a {
         width: 40px;
         margin-left: 20px;
     }
+
+    
 
     footer .container1 .griding {
         grid-template-columns: 1fr;
