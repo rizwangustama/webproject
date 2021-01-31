@@ -424,6 +424,7 @@ footer .container1 .colom2 .grid1 .row1 h4 {
 
 footer .container1 .colom2 .grid1 .row1 p {
     font-size: 16px;
+    color: rgb(37, 37, 37);
 }
 
 footer .container1 .colom1 img {
@@ -460,6 +461,13 @@ footer a {
     font-size: 30px;
     font-weight: bold;
 }
+
+
+#about p {
+    text-align: justify;
+    color: gray;
+}
+
 
 #about .container1 {
     width: 77%;
